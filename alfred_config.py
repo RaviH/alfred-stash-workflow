@@ -45,6 +45,18 @@ def read_config(config_key, decode=False):
         return None
 
 
+def get_username():
+    return read_config('username')
+
+
+def get_password():
+    return read_config('password', True)
+
+
+def get_base_url():
+    return read_config('base_url')
+
+
 # Returns decoded value if decode is True, else returns config value as is
 def get_config_value(config_dict, config_key, decode):
     config_value = config_dict[config_key]

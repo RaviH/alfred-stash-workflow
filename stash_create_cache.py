@@ -4,7 +4,7 @@
 import os
 import json
 import stashy
-import asgard_item
+import alfred_item
 import find_credentials
 import alfred_config
 
@@ -32,7 +32,7 @@ def get_items():
             url = repo['links']['self'][0]['href']
             arg = url
             auto_complete = repo_name
-            item = asgard_item.Item(uid, title, arg, auto_complete, url)
+            item = alfred_item.Item(uid, title, arg, auto_complete, url)
             items.append(item.__dict__)
     return items
 
