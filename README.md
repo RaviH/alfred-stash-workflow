@@ -19,15 +19,30 @@ Currently supported actions are:
 ###### Setup username for Stash
 
 1. Open Alfred (Opt + Spacebar)
-2. Type stash setup baseUrl http://stash.com (Replace the url with your stash url)
-3. Enter
+2. Type stash setup username your_username_here
+3. Enter/Return
 
 ![](http://i.giphy.com/6R0dWmehY5hfy.gif)
 
 ###### Setup password for Stash
 
 1. Open Alfred (Opt + Spacebar)
-2. Type stash setup baseUrl http://stash.com (Replace the url with your stash url)
-3. Enter
+2. Type stash setup password your_password_here
+3. Enter/Return
 
 ![](http://i.giphy.com/108ciS2VAZlT56.gif)
+
+###### Setup Stash cache
+
+1. Open Alfred (Opt + Spacebar)
+2. Type stash create cache 
+3. Enter/Return
+4. This might take a minute or so. You will get a pop up once done.
+
+###### Stash open repository list and select one repo to open
+
+1. Open Alfred (Opt + Spacebar)
+2. Type stash open repo 
+3. Enter will open the selected repo in a browser.
+
+Please let me know if their are any issues in using the workflow via creating an issue.
